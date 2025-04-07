@@ -1,0 +1,16 @@
+# Core dependencies
+llama-index
+llama-index-readers-web
+openai>=1.14.0
+python-dotenv>=1.0.1
+
+# Azure SDKs
+azure-search-documents>=11.4.0
+azure-core>=1.29.5
+
+# Web scraping (used internally by WholeSiteReader via Selenium)
+selenium>=4.19.0
+webdriver-manager>=4.0.1  # Helps auto-install ChromeDriver
+
+# Optional: for better logging/debugging
+tqdm>=4.66.2
